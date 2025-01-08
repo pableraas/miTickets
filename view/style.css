@@ -1,0 +1,1257 @@
+/*style.css*/
+
+.headerImg {
+    position: absolute;
+    margin-left: 10px;
+    max-width: 140px; /* Ancho máximo de la imagen */
+    max-width: 140px; /* Ancho máximo de la imagen */
+
+    /* Puedes agregar un borde temporal para ver dónde está la imagen */
+}
+
+
+#txtMain {
+    position: absolute;
+    margin-left: 130px;
+
+}
+.main-header {
+    display: flex; /* Asegúrate de que el encabezado use flexbox para alinear elementos */
+    justify-content: space-between; /* Espacio entre el texto y la imagen */
+    color: white;
+}
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    min-height: 100vh;
+    background-color: #b8ecb6;
+    flex-direction: column;
+    margin: 0;
+}
+.mainLogin {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 500px;
+    text-align: center;
+}
+#txtLogin {
+    color: #4CAF50;
+}
+
+#txtMain {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.labelLogin {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+
+.inputLogin {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.btnLogin {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #4CAF50;
+    width: 100%;
+    font-size: 16px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:'Segoe UI';
+    overflow: hidden;
+  }
+  
+  .main-header {
+    position: absolute;
+    background: #307232;;
+    width: 100%;
+    height: 100px;
+  }
+  
+ nav{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    top: 80px;
+    height: calc(100vh - 50px);
+    background: #4CAF50;
+    transition: .4s ease;
+  }
+
+  .navBarraTareas   {
+    color: white;
+  }
+
+
+  #crearIncidencia  {
+    position: absolute;
+    margin-left: 200px;
+    top: 0;
+    width: 100%;
+    top: 80px;
+    height: calc(100vh - 50px);
+    background: #b8ecb6;
+  }
+
+    #crearIncidencia  {
+    position: absolute;
+    margin-left: 200px;
+    top: 0;
+    width: 100%;
+    top: 80px;
+    height: calc(100vh - 50px);
+    background: #b8ecb6;
+  }
+  
+  .navigation li {
+    list-style: none;
+    position: relative; /* Importante para el dropdown */
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+  }
+  
+  .navigation a {
+    color: var(--main-color);
+    display: block;
+    line-height: 3.5;
+    padding: 0 10px;
+    text-decoration: none;
+    transition: .4s ease;
+  }
+  
+  .navigation a:hover {
+    transform: translateX(10%);
+  }
+
+.formCrear {
+  position: relative;
+  margin-top: 60px;
+  padding: 1em;
+  box-sizing: border-box;
+  background: #b8ecb6;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 10em 1em 1em 1em;
+  }
+
+  
+.textareaCrear{
+    position:absolute;
+    width: 30%;
+    height: 150px;;
+    margin-top: 26px;
+    margin-left: 660px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family:'Segoe UI';
+    color: #828282;
+    font-size: 15px;
+
+}
+
+.inputCrear{
+    margin-top: 10px;
+    width: 60%;
+    height: 50px;
+    margin-left: 100px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.inputCrear2{
+    position:absolute;
+    width: 29%;
+    height: 50px;
+    margin-top: 250px;
+    margin-left: 120px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+.inputCrear3{
+    position:absolute;
+    width: 29%;
+    height: 50px;
+    margin-top: 26px;
+    margin-left: 660px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+.inputCrear4{
+    position:absolute;
+    width: 29%;
+    height: 50px;
+    margin-top: 26px;
+    margin-left: 120px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+.inputCrear5{
+    position:absolute;
+    width: 29%;
+    height: 50px;
+    margin-top: 200px;
+    margin-left: 120px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+.inputCrear6{
+    position:absolute;
+    width: 29%;
+    height: 50px;
+    margin-top: 200px;
+    margin-left: 660px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+.inputCrear7{
+    position:absolute;
+    width: 29%;
+    height: 50px;
+    margin-top: 380px;
+    margin-left: 120px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+.inputCrear8{
+    position:absolute;
+    width: 29%;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 390px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.inputCrear10{
+    position:absolute;
+    width: 29%;
+    height: 50px;
+    margin-top: 125px;
+    margin-left: 660px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+.inputCrear11{
+    position:absolute;
+    width: 29%;
+    height: 50px;
+    margin-top: 225px;
+    margin-left: 660px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+.inputCrear9{
+    position:absolute;
+    width: 29%;
+    height: 50px;
+    margin-top: 125px;
+    margin-left: 120px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+.j1{
+    position: absolute;
+    margin-left: 400px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.p1{
+    position: absolute;
+    margin-bottom: 10px;
+    margin-left: 122px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.p2{
+    position: absolute;
+    margin-left: 670px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.p3{
+    position: absolute;
+    margin-top: 220px;
+    margin-bottom: 10px;
+    margin-left: 122px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.p4{
+    margin-top: 220px;
+    position: absolute;
+    margin-left: 670px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.p5{
+    position: absolute;
+    margin-top: 340px;
+    margin-bottom: 10px;
+    margin-left: 122px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.p6{
+    margin-top: 340px;
+    position: absolute;
+    margin-left: 670px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.p13{
+    position: absolute;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 122px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.p7{
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 670px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.p8{
+    margin-top: 345px;
+    position: absolute;
+    margin-left: 122px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.p9{
+    margin-top: 345px;
+    position: absolute;
+    margin-left: 820px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.p10{
+    margin-top: 345px;
+    position: absolute;
+    margin-left: 465px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.p11{
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 125px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.p12{
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 670px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.selectEstado{
+    margin-top: 245px;
+    position: absolute;
+    margin-bottom: 5px;
+    font-size: 15px;
+    width: 20%;
+    height: 50px;
+    margin-left: 110px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.selectPrioridad{
+    margin-left: 660px;
+    margin-top: 245px;
+    position: absolute;
+    margin-bottom: 5px;
+    font-size: 15px;
+    width: 20%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.selectCategoria{
+    margin-left: 110px;
+    margin-top: 365px;
+    position: absolute;
+    margin-bottom: 5px;
+    font-size: 15px;
+    width: 20%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.divArchivo {
+    margin-left: 660px;
+    margin-top: 365px;
+    width: 40%;
+    position: absolute;
+    margin-bottom: 5px;
+    font-size: 15px;
+    height: 100px;
+}
+
+#btnForm    {
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 500px;
+    margin-left: 270px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #4CAF50;
+    width: 40%;
+    font-size: 16px;
+}
+
+.inputArchivo   {
+    display: inline-block; /* Hacer que el label actúe como botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: #ffffff; /* Color de fondo */
+    color: white; /* Color del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a puntero */
+    font-size: 16px; /* Tamaño de fuente */
+    transition: background-color 0.3s ease; /* Efecto de transición */
+    color: #000000;
+}
+
+#verIncidencia  {
+    position: absolute;
+    margin-left: 200px;
+    top: 0;
+    width: 100%;
+    top: 80px;
+    height: calc(100vh - 50px);
+    background: #b8ecb6;
+    margin-bottom: 200px;
+  }
+
+  #verIncidencia2 {
+    position: absolute;
+    margin-left: 200px;
+    top: 0;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background: #b8ecb6;
+    margin-top: 300px;
+  }
+
+
+.tabla {
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Sombra suave */
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+    max-width: 90%; /* Limita el ancho máximo del contenedor */
+    max-height: 600px; /* Ajusta la altura máxima según tus necesidades */
+    margin-bottom: 200px;
+    width: 85%; /* Hace que la tabla use el 100% del ancho del contenedor */
+    border-collapse: collapse; /* Colapsar bordes */
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 13px;
+
+}
+
+.tabla2 {
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Sombra suave */
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+    max-width: 90%; /* Limita el ancho máximo del contenedor */
+    max-height: 360px; /* Ajusta la altura máxima según tus necesidades */
+    margin-bottom: 200px;
+    width: 90%; /* Hace que la tabla use el 100% del ancho del contenedor */
+    border-collapse: collapse; /* Colapsar bordes */
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+.tabla3 {
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Sombra suave */
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+    max-width: 90%; /* Limita el ancho máximo del contenedor */
+    max-height: 360px; /* Ajusta la altura máxima según tus necesidades */
+    margin-bottom: 200px;
+    width: 100%; /* Hace que la tabla use el 100% del ancho del contenedor */
+    border-collapse: collapse; /* Colapsar bordes */
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.tabla4 {
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Sombra suave */
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+    max-width: 90%; /* Limita el ancho máximo del contenedor */
+    max-height: 360px; /* Ajusta la altura máxima según tus necesidades */
+    margin-bottom: 200px;
+    width: 100%; /* Hace que la tabla use el 100% del ancho del contenedor */
+    border-collapse: collapse; /* Colapsar bordes */
+    margin-left: 170px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.tabla5 {
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Sombra suave */
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+    max-width: 90%; /* Limita el ancho máximo del contenedor */
+    max-height: 360px; /* Ajusta la altura máxima según tus necesidades */
+    margin-bottom: 200px;
+    width: 100%; /* Hace que la tabla use el 100% del ancho del contenedor */
+    border-collapse: collapse; /* Colapsar bordes */
+    margin-left: 450px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+#verIncidencia3  {
+    position: absolute;
+    width: 20%;
+    height: calc(100vh - 50px);
+    margin-left: 1020px;
+    margin-top: 510px;
+    height: 23%;
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+  }
+
+  #verIncidencia4  {
+    position: absolute;
+    width: 20%;
+    height: calc(100vh - 50px);
+    margin-left: 120px;
+    margin-top: 370px;
+    height: 50%;
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+  }
+
+  #verIncidencia6  {
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+    position: absolute;
+    width: 22%;
+    height: calc(100vh - 50px);
+    margin-left: 660px;
+    margin-top: 510px;
+    height: 23%;
+  }
+
+  #verIncidencia7  {
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+    position: absolute;
+    width: 30%;
+    height: calc(100vh - 50px);
+    margin-left: 320px;
+    margin-top: 360px;
+    height: 23%;
+  }
+
+  #verIncidencia8  {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    top: 80px;
+    height: 800px;
+    background: #b8ecb6;
+    margin-bottom: 200px;
+  }
+
+
+
+.tabla6 {
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+    position: absolute;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Sombra suave */
+    max-height: 360px; /* Ajusta la altura máxima según tus necesidades */
+    margin-bottom: 200px;
+    border-collapse: collapse; /* Colapsar bordes */
+    font-size: 12px;
+}
+
+.tabla7 {
+    margin-top: 75px;
+    margin-left: 150px;
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+    position: absolute;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Sombra suave */
+    max-height: 400px; /* Ajusta la altura máxima según tus necesidades */
+    margin-bottom: 200px;
+    border-collapse: collapse; /* Colapsar bordes */
+    font-size: 16px;
+}
+
+
+
+th, td {
+    padding: 15px; /* Espaciado interno de celdas */
+    text-align: left; /* Alinear texto a la izquierda */
+    border-bottom: 1px solid #ddd; /* Línea inferior */
+    border: 2px solid #4CAF50; /* Borde de las celdas */
+}
+
+th {
+    background-color: #4CAF50; /* Color de fondo de encabezados */
+    color: white; /* Color del texto de encabezados */
+}
+
+tr:hover {
+    background-color: #f2f2f2; /* Color de fondo al pasar el mouse */
+}
+
+.contenido-oculto {
+    display: none; /* Oculto por defecto */
+    position: relative;
+    top: 100%; /* Para colocar el submenú debajo del elemento padre */
+    list-style-type: none;
+    padding: 0;
+    background-color: #307232;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    min-width: 200px; /* Ancho mínimo del submenú */
+    z-index: 1;
+    }
+
+.oculto:hover .contenido-oculto {
+    display: block;
+}
+
+#crearIncidencia2  {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 300px;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background: #b8ecb6;
+  }
+  
+.formCrear2 {
+    position: absolute;
+    margin-top:450px;
+    margin-left: 300px;
+    padding: 1em;
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 10em 1em 1em 1em;
+    }
+  
+    .formCrear3 {
+        position: absolute;
+        margin-top:450px;
+        margin-left: 300px;
+        padding: 1em;
+        box-sizing: border-box;
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 10em 1em 1em 1em;
+        }
+  
+  
+  .inputIdIncidencia{
+      margin-top: 97px;
+      width: 20%;
+      height: 50px;
+      margin-left: 410px;
+      box-sizing: border-box;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 15px;
+  }
+  
+  
+  .l1{
+      position: absolute;
+      margin-top: 80px;
+      margin-bottom: 200px;
+      margin-left: 390px;
+      font-size: 15px;
+      font-weight: bold;
+  }
+  
+  #btnForm2    {
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 180px;
+    margin-left: 320px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #4CAF50;
+    width: 30%;
+    font-size: 16px;
+}
+.inputIdDepartamento{
+    margin-top: 97px;
+    width: 25%;
+    height: 50px;
+    margin-left: 410px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.inputIdUsuario{
+    margin-top: 97px;
+    width: 25%;
+    height: 50px;
+    margin-left: 410px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.l2{
+    position: absolute;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    margin-left: 390px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.l3{
+    position: absolute;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    margin-left: 400px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#btnForm3    {
+  position: absolute;
+  border-radius: 10px;
+  margin-top: 180px;
+  margin-left: 320px;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: #4CAF50;
+  width: 30%;
+  font-size: 16px;
+}
+
+#btnCrudBorrar    {
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 500px;
+    margin-left: 190px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #af4c4c;
+    width: 15%;
+    font-size: 16px;
+}
+
+#btnCrudVolver    {
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 500px;
+    margin-left: 470px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #4CAF50;
+    width: 15%;
+    font-size: 16px;
+}
+
+#btnCrudActualizar    {
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 500px;
+    margin-left: 750px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #4c95af;
+    width: 15%;
+    font-size: 16px;
+}
+
+.o1{
+    position: absolute;
+    margin-left: 255px;
+    margin-bottom: 5px;
+    margin-top: 110px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.o2{
+    position: absolute;
+    margin-left: 120px;
+    margin-bottom: 5px;
+    margin-top: 110px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.o3{
+    position: absolute;
+    margin-left: 380px;
+    margin-bottom: 5px;
+    margin-top: 110px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.inputFecha{
+    position: absolute;
+    width: 11%;
+    height: 50px;
+    margin-top: 135px;
+    margin-left: 380px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.inputUsuario{
+    position: absolute;
+    width: 7%;
+    height: 50px;
+    margin-top: 135px;
+    margin-left: 250px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.inputTecnico{
+    position: absolute;
+    width: 7%;
+    height: 50px;
+    margin-top: 135px;
+    margin-left: 115px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.inputArchivo2   {
+    
+    display: inline-block; /* Hacer que el label actúe como botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    color: black; /* Color del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a puntero */
+    font-size: 16px; /* Tamaño de fuente */
+    transition: background-color 0.3s ease; /* Efecto de transición */
+}
+
+.inputArchivo2:hover {
+    background-color: #8a8a8ab9;; /* Color de fondo al pasar el cursor */
+}
+
+.inputFecha:hover {
+    background-color: #8a8a8ab9; /* Color de fondo al pasar el cursor */
+}
+
+.k3{
+    position: absolute;
+    margin-top: 175px;
+    margin-bottom: 10px;
+    margin-left: 122px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.k4{
+    position: absolute;
+    margin-top: 175px;
+    margin-bottom: 10px;
+    margin-left: 670px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.k5{
+    position: absolute;
+    margin-top: 350px;
+    margin-bottom: 10px;
+    margin-left: 122px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.descCol {
+    width: 180px; /* Ajusta el ancho de la columna idTecnico */
+}
+
+.usuarioCol {
+    width: 80px; /* Ajusta el ancho de la columna idUsuario */
+}
+
+.verMensaje {
+    position: absolute;
+    margin-left: 200px;
+    background: #b8ecb6;
+    margin-top: 80px;
+    width: 100%;
+    height: 60%;
+    border: 0px solid #000000;
+    overflow-y: auto;
+    box-shadow: none;             /* Sin sombra */
+    border: none;
+  }
+
+.mensaje {
+    position: relative;
+    background-color: #5ada55;
+    border-radius: 5px;
+    height: 25%;
+    width: 50%;
+    margin-left: 250px;
+    border-width: 0px;
+    box-shadow: none;             /* Sin sombra */
+    border: none;
+    color: white;
+    margin-top: 5px;
+}
+
+.fechamsj {
+    position: absolute;
+    font-size: 12px;
+    margin-left: 610px;
+    margin-top: 10px;
+    font-weight: bolder;
+
+}
+
+.usermsj    {
+    position: absolute;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.msj {
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 22px;
+    margin-right: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.crearMensaje {
+    position: absolute;
+    margin-left: 200px;
+    background: #b8ecb6;
+    width: 100%;
+    height: 100%;
+    margin-top: 506px;
+}
+
+.textAreaMsj    {
+    position:absolute;
+    width: 49.5%;
+    height: 120px;;
+    margin-top: 8px;
+    margin-left: 250px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family:'Segoe UI';
+    color: #828282;
+    font-size: 15px;
+}
+
+.btnMensaje {
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 470px;
+    margin-top: 120px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #4CAF50;
+    width: 20%;
+    font-size: 16px;
+}
+
+.btnBorrarMensaje {    
+    border-radius: 50px;
+    margin-left: 750px;
+    border: none;
+    color: white;
+    background-color: #ec3806;
+    font-size: 10px;
+}
+
+.imgBorrar {
+    max-width: 25px; /* Ancho máximo de la imagen */
+    max-height: 25px; /* Alto máximo de la imagen */
+    /* Puedes agregar un borde temporal para ver dónde está la imagen */
+}
+
+.formProblema {
+    position: relative;
+    padding: 1em;
+    box-sizing: border-box;
+    background: #b8ecb6;
+    display: grid;
+    grid-gap: 30px;
+    margin-top: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 10em 1em 1em 1em;
+    }
+
+.p14{
+    margin-top: 55px;
+    position: absolute;
+    margin-bottom: 10px;
+    margin-left: 182px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.p15{
+    margin-top: 120px;
+    position: absolute;
+    margin-bottom: 10px;
+    margin-left: 182px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.inputProblema{
+    margin-top: 40px;
+    width: 100%;
+    height: 50px;
+    margin-left: 265px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+  
+.textareaProblema{
+    position:absolute;
+    width: 48%;
+    height: 150px;;
+    margin-top: 120px;
+    margin-left: 280px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family:'Segoe UI';
+    color: #828282;
+    font-size: 15px;
+
+}
+
+#btnAyuda    {
+    position: absolute;
+    border-radius: 15px;
+    margin-top: 290px;
+    margin-left: 470px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #4CAF50;
+    width: 20%;
+    font-size: 16px;
+}
+
+#txtAyuda {
+    margin-left: 20%;
+    margin-top: 30px;
+    height: 190px;
+    font-family:'Segoe UI';
+}
+
+.linkAyuda {
+    position: absolute;
+    margin-left: 300px;
+}
+
+.imgPerfil {
+    position: absolute;
+    margin-left: 1400px;
+    max-width: 80px; /* Ancho máximo de la imagen */
+    max-height: 80px; /* Alto máximo de la imagen */
+    display: block; /* Asegurarte de que la imagen se muestre como bloque */
+    /* Puedes agregar un borde temporal para ver dónde está la imagen */
+}
+
+.fotoPerfil {
+    position: absolute;
+    margin-left: 150px;
+    max-width: 200px; /* Ancho máximo de la imagen */
+    max-height: 200px; /* Alto máximo de la imagen */
+    display: block; /* Asegurarte de que la imagen se muestre como bloque */
+    /* Puedes agregar un borde temporal para ver dónde está la imagen */
+}
+
+#btnVolverPerfil    {
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 500px;
+    margin-left: 650px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #4CAF50;
+    width: 15%;
+    font-size: 16px;
+}
+
+#btnActualizarPerfil    {
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 500px;
+    margin-left: 370px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #4c95af;
+    width: 15%;
+    font-size: 16px;
+}
